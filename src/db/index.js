@@ -1,7 +1,7 @@
 import Dexie from "dexie";
 import {routes} from "@/plugins/router";
 
-const DB_NAME = '.nodb';
+const DB_NAME = 'nulldb';
 
 const _ = {
   setSchema: function (db) {

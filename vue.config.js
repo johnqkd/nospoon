@@ -8,7 +8,7 @@ module.exports = {
 			new CopyPlugin({
 				patterns: [
 					{from: './node_modules/ton-client-web-js/tonclient.wasm'},
-					{from: './node_modules/@tonclient/lib-web/tonclient.wasm', to: 'tonclient_1.12.0.wasm'},
+					{from: './node_modules/@tonclient/lib-web/tonclient.wasm', to: 'tonclient_1.5.3.wasm'},
 				],
 			}),
 			new RemovePlugin({
