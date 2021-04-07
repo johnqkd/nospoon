@@ -1,0 +1,3 @@
+**nospoon** is a Chrome extension, providing a FreeTON wallet and connector to be a submission to [this](https://forum.freeton.org/t/contest-proposal-free-ton-wallet-as-a-chrome-extension) contest.
+
+> It contains some modified chunks of [Extraton](https://github.com/extraton/extraton-extension) Chrome extension sources, and is partially based on, due to it's developed under pretty favour license at the moment of **nospoon** is being published.
