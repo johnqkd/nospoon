@@ -1,0 +1,64 @@
+{
+  "name": "nospoon",
+  "version": "0.1.0",
+  "description": "FreeTON wallet and connector as Chrome extension",
+  "main": "lib/main.js",
+  "scripts": {
+    "env": "export VUE_APP_I18N_LOCALE=en; export VUE_APP_I18N_FALLBACK_LOCALE=en",
+    "dev": "npm run env && vue-cli-service build --mode development --watch",
+    "build": "npm run env && vue-cli-service build",
+    "i18n:report": "npm run env && vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnqkd/nospoon.git"
+  },
+  "author": "johnqkd@pm.me",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/johnqkd/nospoon/issues"
+  },
+  "homepage": "https://github.com/johnqkd/nospoon#readme",
+  "dependencies": {
+    "@mdi/font": "*",
+    "@tonclient/core": "*",
+    "@tonclient/lib-web": "*",
+    "bignumber.js": "*",
+    "core-js": "*",
+    "dexie": "*",
+    "extension-port-stream": "*",
+    "extensionizer": "*",
+    "hex2ascii": "*",
+    "js-base64": "*",
+    "obj-multiplex": "*",
+    "post-message-stream": "*",
+    "pump": "*",
+    "roboto-fontface": "*",
+    "to-hex": "*",
+    "ton-client-web-js": "*",
+    "vue-clipboards": "*",
+    "vue-i18n": "*",
+    "vue-router": "*",
+    "vuetify": "*",
+    "vuex": "*"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "*",
+    "@vue/cli-plugin-babel": "*",
+    "@vue/cli-service": "*",
+    "copy-webpack-plugin": "*",
+    "remove-files-webpack-plugin": "*",
+    "sass": "*",
+    "sass-loader": "*",
+    "vue-cli-plugin-browser-extension": "*",
+    "vue-cli-plugin-i18n": "*",
+    "vue-cli-plugin-vuetify": "*",
+    "vue-template-compiler": "*",
+    "vuetify-loader": "*"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
